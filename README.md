@@ -80,5 +80,5 @@ loyalty rewards, and personalized offers to improve long-term retention.
 
 ## Technical Details
 - **Database;** PostgreSQL
-- **Analysis Tool;** PostgreSQL
+- **Analysis Tool;** PostgreSQL, Dbeaver, PGadmin
 - **Visualization;** ChatGPT
