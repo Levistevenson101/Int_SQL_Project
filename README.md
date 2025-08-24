@@ -1,11 +1,13 @@
 # INTERMEDIATE SQL - Sales Analysis 
 
 ## Overview
+Analysis of customer behavior, retention, and lifetime value for and e-commerce company to improve customer retention and maximize revenue. 
 
 ## Business Questions
 1. **Customer Segmentation** Who are our most valuable customers?
 2. **Cohort Analysis:** How do different customer groups generate revenue?
 3. **Retention Analysis** Who hasn't purchased recently?
+
 ## Analysis Approach
 
 ### 1. Customer Segmentation
@@ -64,13 +66,17 @@ Query: [3_retention_analysis.sql](Scripts/3_retention_analysis.sql)
 ![3_retention_analysis_bar_chart.png](images/3_retention_analysis_bar.png.png)
 
 **Key Findings;**
+- Cohort churn stabilizes at ~90% after 2-3 years,
+indicating a predictable long-term retention pattern.
+- Retention rates are consistently low (8-10%) across all cohorts, suggesting retention issues are systemic rather than specific to certain years.
+- Newer cohorts (2022-2023) show similar church trajectories, signaling that without intervention,
+future cohorts will follow the same pattern.
 
 **Business Insights;**
-
-
-**Strategic Recommendations;**
-
-1. 
+- Strengthen early engagement strategies to target the first 1-2 years with onboarding incentives,
+loyalty rewards, and personalized offers to improve long-term retention.
+- Re-engage high-value churned customers by focusing on targeted  win-back campaigns rather than broad retention efforts, as reactivating valuable users may yield higher ROI.
+- Predict & Preempt churn risk and use customer-specific warning indicators to proactively intervene with at-risk users before they lapse. 
 
 ## Technical Details
 - **Database;** PostgreSQL
